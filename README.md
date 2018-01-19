@@ -1,18 +1,16 @@
-## ng new angular 5 --style=scss --routing
+## create new angular 5 
+$ ng new angular 5 --style=scss --routing
 
-create new angular 5 
+## update all module +angular5@0.0.0
+$ npm install -g
 
-## npm install -g
+## first test running server
+$ ng serve
 
-update all module +angular5@0.0.0
+## Generate new Component for Home and About
 
-## ng serve
-
-first test running server
-
-## Installation
-
-Provide code examples and explanations of how to get the project.
+$ ng generate component home
+$ ng g c about
 
 ## API Reference
 
